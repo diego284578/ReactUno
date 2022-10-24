@@ -1,24 +1,17 @@
 
 import './App.css';
-import Header from './components/Header'
-import Main from './components/Main'
-import Footer from './components/Footer'
 import 'bootstrap/dist/css/bootstrap.min.css';
+// import HomePage from './views/HomePage';
+import HomeDos from './views/HomeDos';
 
 
 function App() {
   return (
     <div className="body">
-      <div className="Header">
-        <Header />
-      </div>
-     <div>
-      <Main/>
-     </div>
-     <div>
-      <Footer/>
-     </div>
-    
+      {/* <HomePage/> */}
+
+      <HomeDos/>
+ 
     </div>
   );
 }
